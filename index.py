@@ -4,7 +4,7 @@ seguir = "S"
 
 while seguir == "S":
 
-    # Contadores
+    # contadores 
     pikachu = 0
     otaku = 0
     pulpo = 0
@@ -16,7 +16,7 @@ while seguir == "S":
 
     opcion = 0
 
-    # MENÚ DE PEDIDOS
+    # menu d chuchis
 
     while opcion != 5:
 
@@ -55,7 +55,7 @@ while seguir == "S":
         else:
             print("Opción no válida")
 
-    # CÓDIGO DE DESCUENTO    
+    # deskuentoo
 
     codigo = input("\nIngrese código de descuento o X para continuar: ")
 
@@ -69,7 +69,7 @@ while seguir == "S":
 
     total = subtotal - descuento
 
-    # DETALLE DEL PEDIDO
+    # boleta
 
     total_productos = pikachu + otaku + pulpo + anguila
 
@@ -88,7 +88,7 @@ while seguir == "S":
     print("TOTAL: $", int(total))
 
 
-    # NUEVO PEDIDO
+    # pedido nuevo
 
     seguir = input("\n¿Desea realizar otro pedido? (S/N): ").upper()
 
